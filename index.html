@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biswajeet Mishra | Front-End Developer & Digital Entrepreneur</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+</head>
+<body class="dark-mode">
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <span class="logo-text">BM</span>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="theme-toggle">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon active"></i>
+        </div>
+        <div class="mobile-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Biswajeet Mishra</h1>
+                <div class="animated-text">
+                    <span class="profession">Front-End Developer</span>
+                    <span class="profession">React Developer</span>
+                    <span class="profession">MERN Stack Developer</span>
+                    <span class="profession">Digital Entrepreneur</span>
+                </div>
+                <p>Creating high-performance, scalable web applications with a focus on user experience.</p>
+                <div class="hero-cta">
+                    <a href="#contact" class="primary-btn">Get In Touch</a>
+                    <a href="#projects" class="secondary-btn">View Projects</a>
+                </div>
+            </div>
+            <div class="hero-3d-element" id="hero-animation"></div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-title">
+            <h2>About Me</h2>
+            <div class="title-bar"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-image">
+                <div class="image-wrapper">
+                    <img src="images/my profile picture.jpg     " alt="Biswajeet Mishra" class="profile-image">
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/biswajeetmishra47" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:mrjeet088@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="about-text">
+                <h3>Front-End Developer | React Developer | MERN Stack Developer | Digital Entrepreneur</h3>
+                <p>
+                    I am a web developer and digital entrepreneur with a passion for creating high-performance, scalable web applications. As the founder of Sharan Digital Solution, I have successfully led digital marketing, web development, and data analysis projects for clients across Maharashtra since 2019.
+                </p>
+                <p>
+                    With hands-on experience in JavaScript, React, Angular, Python, and the MERN stack, I have built user-centric interfaces and full-stack solutions. My deep interest in DevOps practices allows me to optimize development workflows effectively.
+                </p>
+                <p>
+                    I have a strong background in managing remote teams, participating in hackathons, and publishing research papers at IEEE and SCOPUS conferences.
+                </p>
+                <div class="about-details">
+                    <div class="detail-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Nashik, Maharashtra, India</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>mrjeet088@gmail.com</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-phone"></i>
+                        <span>8087020031</span>
+                    </div>
+                </div>
+                <a href="" class="resume-btn">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="section-title">
+            <h2>My Skills</h2>
+            <div class="title-bar"></div>
+        </div>
+        <div class="skills-content">
+            <div class="skill-category">
+                <h3>Frontend Technologies</h3>
+                <div class="skills-grid">
+                    <div class="skill-item" data-skill="HTML5">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="skill-item" data-skill="CSS3">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="skill-item" data-skill="JavaScript">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-item" data-skill="React">
+                        <i class="fab fa-react"></i>
+                        <span>React.js</span>
+                    </div>
+                    <div class="skill-item" data-skill="Angular">
+                        <i class="fab fa-angular"></i>
+                        <span>Angular</span>
+                    </div>
+                    <div class="skill-item" data-skill="Bootstrap">
+                        <i class="fab fa-bootstrap"></i>
+                        <span>Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Backend Technologies</h3>
+                <div class="skills-grid">
+                    <div class="skill-item" data-skill="Node.js">
+                        <i class="fab fa-node-js"></i>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="skill-item" data-skill="Express.js">
+                        <i class="fab fa-node-js"></i>
+                        <span>Express.js</span>
+                    </div>
+                    <div class="skill-item" data-skill="MongoDB">
+                        <i class="fas fa-database"></i>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="skill-item" data-skill="MySQL">
+                        <i class="fas fa-database"></i>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="skill-item" data-skill="APIs">
+                        <i class="fas fa-server"></i>
+                        <span>RESTful APIs</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>DevOps & Tools</h3>
+                <div class="skills-grid">
+                    <div class="skill-item" data-skill="Git">
+                        <i class="fab fa-git-alt"></i>
+                        <span>Git</span>
+                    </div>
+                    <div class="skill-item" data-skill="GitHub">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </div>
+                    <div class="skill-item" data-skill="Docker">
+                        <i class="fab fa-docker"></i>
+                        <span>Docker</span>
+                    </div>
+                    <div class="skill-item" data-skill="Cloud">
+                        <i class="fas fa-cloud"></i>
+                        <span>Cloud Technologies</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Other Technologies</h3>
+                <div class="skills-grid">
+                    <div class="skill-item" data-skill="Redux">
+                        <i class="fas fa-code-branch"></i>
+                        <span>Redux</span>
+                    </div>
+                    <div class="skill-item" data-skill="TypeScript">
+                        <i class="fab fa-js"></i>
+                        <span>TypeScript</span>
+                    </div>
+                    <div class="skill-item" data-skill="EmailJS">
+                        <i class="fas fa-envelope"></i>
+                        <span>EmailJS</span>
+                    </div>
+                    <div class="skill-item" data-skill="JSON">
+                        <i class="fas fa-file-code"></i>
+                        <span>JSON</span>
+                    </div>
+                    <div class="skill-item" data-skill="Webpack">
+                        <i class="fas fa-cube"></i>
+                        <span>Webpack</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Languages</h3>
+                <div class="language-list">
+                    <div class="language-item">
+                        <span class="language">Hindi</span>
+                        <span class="proficiency">Native</span>
+                    </div>
+                    <div class="language-item">
+                        <span class="language">Maithili</span>
+                        <span class="proficiency">Native</span>
+                    </div>
+                    <div class="language-item">
+                        <span class="language">Bengali</span>
+                        <span class="proficiency">Native</span>
+                    </div>
+                    <div class="language-item">
+                        <span class="language">English</span>
+                        <span class="proficiency">Proficient</span>
+                    </div>
+                    <div class="language-item">
+                        <span class="language">Marathi</span>
+                        <span class="proficiency">Advanced</span>
+                    </div>
+                    <div class="language-item">
+                        <span class="language">German</span>
+                        <span class="proficiency">Intermediate</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="section-title">
+            <h2>Professional Experience</h2>
+            <div class="title-bar"></div>
+        </div>
+        <div class="experience-timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">06/2024 - Present</div>
+                <div class="timeline-content">
+                    <h3>Founder</h3>
+                    <h4>Sharan Digital Solution | Nashik, Maharashtra</h4>
+                    <ul>
+                        <li>Providing digital marketing, web development, and data analysis services.</li>
+                        <li>Responsible for project management, client relationships, and team collaboration.</li>
+                        <li>Developed the official website for Sharan Digitals using React and Three.js.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">09/2024 - 10/2024</div>
+                <div class="timeline-content">
+                    <h3>Junior Frontend Developer</h3>
+                    <h4>Vaishali Softtech Pvt. Ltd. | Nashik, Maharashtra</h4>
+                    <ul>
+                        <li>Developed and maintained responsive web applications.</li>
+                        <li>Collaborated with cross-functional teams to deliver high-quality client projects.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">01/2023 - 06/2023</div>
+                <div class="timeline-content">
+                    <h3>Junior React Developer</h3>
+                    <h4>A Square ERP Solution | Nashik, Maharashtra</h4>
+                    <ul>
+                        <li>Enhanced ERP solutions using React.js, focusing on performance optimization.</li>
+                        <li>Improved user interaction and functionality with modern UI/UX design principles.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">05/2024 - 08/2024</div>
+                <div class="timeline-content">
+                    <h3>Frontend Developer (Internship)</h3>
+                    <h4>Cognifyz Technologies | Nashik, Maharashtra</h4>
+                    <ul>
+                        <li>Worked on frontend development projects with a focus on improving user interfaces.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="show-more-btn">
+                <span>Show More</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="hidden-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">09/2023 - 02/2024</div>
+                    <div class="timeline-content">
+                        <h3>Full-Stack Developer</h3>
+                        <h4>Vaishali Softtech Pvt. Ltd. | Indore, Madhya Pradesh</h4>
+                        <ul>
+                            <li>Developed and maintained full-stack web applications using Node.js, React.js, and MongoDB.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">06/2023 - 09/2023</div>
+                    <div class="timeline-content">
+                        <h3>Subject-Matter Expert (Kiwi.com Process)</h3>
+                        <h4>WNS | Nashik, Maharashtra</h4>
+                        <ul>
+                            <li>Led a team of customer service representatives and improved compliance by 15%.</li>
+                            <li>Developed training programs to enhance team efficiency.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">04/2021 - 02/2022</div>
+                    <div class="timeline-content">
+                        <h3>Order Process Specialist</h3>
+                        <h4>WNS | Nashik, Maharashtra</h4>
+                        <ul>
+                            <li>Provided customer support for complex travel-related issues and managed customer interactions.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">08/2022 - 04/2023</div>
+                    <div class="timeline-content">
+                        <h3>Digital Marketing Executive</h3>
+                        <h4>Groott Digital Agency | India</h4>
+                        <ul>
+                            <li>Managed social media campaigns and optimized online presence for clients to enhance brand visibility.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="section-title">
+            <h2>Education</h2>
+            <div class="title-bar"></div>
+        </div>
+        <div class="education-cards">
+            <div class="education-card">
+                <div class="edu-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h3>Bachelor's Degree, Information Technology</h3>
+                <h4>Sandip University, Nashik</h4>
+                <p class="edu-year">2022 - 2025</p>
+            </div>
+            <div class="education-card">
+                <div class="edu-icon">
+                    <i class="fas fa-school"></i>
+                </div>
+                <h3>12th Business/Commerce General</h3>
+                <h4>Byk College of Commerce</h4>
+            </div>
+            <div class="education-card">
+                <div class="edu-icon">
+                    <i class="fas fa-school"></i>
+                </div>
+                <h3>10th Standard</h3>
+                <h4>Vijay English Medium School</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-title">
+            <h2>Projects</h2>
+            <div class="title-bar"></div>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                </div>
+                <div class="project-details">
+                    <h3>Bug Bounty (Security Audit)</h3>
+                    <p>Identified a critical vulnerability at Manipal University, safeguarding their financial infrastructure.</p>
+                    <div class="project-tech">
+                        <span>Security Testing</span>
+                        <span>Vulnerability Assessment</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="view-project">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                </div>
+                <div class="project-details">
+                    <h3>Digital Marketing Agency Website</h3>
+                    <p>Designed and developed an official website for Sharan Digitals, showcasing services in digital marketing, web development, and data analysis.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Three.js</span>
+                        <span>Responsive Design</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="view-project">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research & Publications -->
+    <section id="research" class="research">
+        <div class="section-title">
+            <h2>Research & Publications</h2>
+            <div class="title-bar"></div>
+        </div>
+        <div class="research-cards">
+            <div class="research-card">
+                <div class="research-org">Manipal University, Manipal, Karnataka</div>
+                <h3>Augmented Reality, Intelligent Systems, and Industrial Automation, IEEE</h3>
+                <p>Publication focusing on innovative applications of augmented reality and intelligent systems in industrial settings.</p>
+                <a href="#" class="read-more">Read Publication</a>
+            </div>
+            <div class="research-card">
+                <div class="research-org">NIT Rourkela, Rourkela</div>
+                <h3>AI-Driven Design and Smart Manufacturing</h3>
+                <p>Harnessing Machine Learning for Advanced Optimization, Precision Engineering, and Enhanced Quality Assurance.</p>
+                <a href="#" class="read-more">Read Publication</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards & Certifications -->
+    <section id="awards" class="awards">
+        <div class="section-title">
+            <h2>Awards & Certifications</h2>
+            <div class="title-bar"></div>
+        </div>
+        <div class="awards-container">
+            <div class="award-category">
+                <h3>Awards</h3>
+                <div class="award-item">
+                    <div class="award-icon"><i class="fas fa-trophy"></i></div>
+                    <div class="award-content">
+                        <h4>Best Startup Pitching Award 2024</h4>
+                    </div>
+                </div>
+                <div class="award-item">
+                    <div class="award-icon"><i class="fas fa-award"></i></div>
+                    <div class="award-content">
+                        <h4>Research Paper Presentation at IEEE Conference</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="award-category">
+                <h3>Certifications</h3>
+                <div class="award-item">
+                    <div class="award-icon"><i class="fas fa-certificate"></i></div>
+                    <div class="award-content">
+                        <h4>Career Essentials in Data Analysis</h4>
+                        <p>Microsoft and LinkedIn</p>
+                    </div>
+                </div>
+                <div class="award-item">
+                    <div class="award-icon"><i class="fas fa-certificate"></i></div>
+                    <div class="award-content">
+                        <h4>Digital Marketing Course</h4>
+                        <p>IIT Bombay Techfest</p>
+                    </div>
+                </div>
+                <div class="award-item">
+                    <div class="award-icon"><i class="fas fa-certificate"></i></div>
+                    <div class="award-content">
+                        <h4>LinkedIn Marketing Certification</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-title">
+            <h2>Get In Touch</h2>
+            <div class="title-bar"></div>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Nashik, Maharashtra, India</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>mrjeet088@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>8087020031</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/biswajeetmishra47" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:mrjeet088@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Send Me A Message</h3>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+                <div class="form-status"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="logo-text">BM</span>
+                <p>Biswajeet Mishra</p>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://linkedin.com/in/biswajeetmishra47" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:mrjeet088@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Biswajeet Mishra. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <span>B</span>
+            <span>M</span>
+        </div>
+    </div>
+</body>
+</html> 
